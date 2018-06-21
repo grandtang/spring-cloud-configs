@@ -2,7 +2,7 @@ server:
   port: 8004
 logging:
   level:
-    com.yasaka.stock.feign.MFeignClient: debug
+    cn.tangzy.service.FeignClient: debug
 feign:
   hystrix:
     enabled: true
