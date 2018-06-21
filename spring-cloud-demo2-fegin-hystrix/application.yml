@@ -2,7 +2,7 @@ server:
   port: 8005
 logging:
   level:
-    cn.tangzy.service.MFeignClient: debug
+    cn.tangzy.demo2.service.MFeignClient: debug
 feign:
   hystrix:
     enabled: true
