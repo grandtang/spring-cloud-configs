@@ -2,5 +2,5 @@ server:
   port: 8003 
 zuul:
   routes:
-    spring-cloud-demo2-fegin-hystrix: /demo1/**
+    spring-cloud-demo1-fegin-hystrix: /demo1/**
     spring-cloud-demo2-fegin-hystrix: /demo2/**
