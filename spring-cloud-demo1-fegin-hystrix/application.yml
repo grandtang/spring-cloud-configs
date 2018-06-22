@@ -1,8 +1,5 @@
 server:
-  port: 8004
-#logging:
-#  level:
-#    cn.tangzy.service.MFeignClient: debug
+  port: 8006
 logging:
   level: debug
 feign:
